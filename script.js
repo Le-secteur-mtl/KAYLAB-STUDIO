@@ -1,0 +1,1 @@
+const SOCIALS={tiktok:'https://www.tiktok.com/',instagram:'https://www.instagram.com/'};['tiktok-link','tiktok-link-2'].forEach(id=>document.getElementById(id).href=SOCIALS.tiktok);['instagram-link','instagram-link-2'].forEach(id=>document.getElementById(id).href=SOCIALS.instagram);
